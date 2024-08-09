@@ -1,0 +1,106 @@
+
+
+// import React from 'react';
+
+// function Radar() {
+//   return (
+//     <div className="flex flex-col items-center">
+//       <div className="flex justify-center items-center w-full h-screen p-4">
+//         <div className="relative h-[28rem] w-[28rem] md:h-[24rem] md:w-[24rem] sm:h-[18rem] sm:w-[18rem] bg-[#0D0820] flex justify-center items-center rounded-full">
+//           <div>
+//             <img
+//               className="absolute h-[3.5rem] w-[3.5rem] md:h-[3rem] md:w-[3rem] sm:h-[2.5rem] sm:w-[2.5rem] rounded-full border-4 border-white"
+//               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx46a8_CYFmUiQKTIJt9s-TdVoJXbmkWlHBw&s"
+//               alt=""
+//             />
+//           </div>
+//           <div>
+//             <img
+//               className="absolute right-0 mt-[5rem] h-[3rem] w-[3rem] md:h-[2.5rem] md:w-[2.5rem] sm:h-[2rem] sm:w-[2rem] rounded-full border-4 border-white"
+//               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzsTPoP_W0u8o9wiB-qN3tY_33uRh8K9hxGQ&s"
+//               alt=""
+//             />
+//           </div>
+//           <div>
+//             <img
+//               className="absolute top-0 mt-[6rem] h-[2.5rem] w-[2.5rem] md:h-[2rem] md:w-[2rem] sm:h-[1.5rem] sm:w-[1.5rem] rounded-full border-4 border-white"
+//               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJHEvwV0uy0kwULUd-iKzLH09Ee8KDw0IOA&s"
+//               alt=""
+//             />
+//           </div>
+//           <div className="h-[24rem] w-[24rem] md:h-[20rem] md:w-[20rem] sm:h-[14rem] sm:w-[14rem] bg-[#140D32] flex justify-center items-center rounded-full">
+//             <div className="h-[20rem] w-[20rem] md:h-[16rem] md:w-[16rem] sm:h-[10rem] sm:w-[10rem] bg-[#1A1141] flex justify-center items-center rounded-full">
+//               <div className="h-[16rem] w-[16rem] md:h-[12rem] md:w-[12rem] sm:h-[6rem] sm:w-[6rem] bg-[#1F144E] flex justify-center items-center rounded-full">
+//                 <div className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[2rem] sm:w-[2rem] bg-white rounded-full">
+//                   <img
+//                     className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem] rounded-full object-cover"
+//                     src="https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129417.jpg?t=st=1723020558~exp=1723024158~hmac=0d77a771a9d054f1ede3b453c9b26cabd9efb595bc9ecc66a9237f4025696239&w=996"
+//                     alt=""
+//                   />
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+
+//       <div className="text-center text-white bg-black p-4 md:p-6 lg:p-9">
+//         <h2 className="text-2xl md:text-3xl lg:text-4xl p-4 md:p-6 lg:p-9">Stocks under Radar</h2>
+//         <p className="text-xs md:text-sm lg:text-base">
+//           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+//         </p>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Radar;
+
+
+
+import React from 'react'
+
+function Radar() {
+  return (
+    <div >
+      <div className=' flex justify-center items-center h-screen '>
+      <div className='h-[28rem] w-[28rem] bg-[#0D0820] flex justify-center items-center rounded-full relative'>
+      <div >
+        <img className='h-[3.5rem] w-[3.5rem] rounded-full absolute border-4 border-white ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx46a8_CYFmUiQKTIJt9s-TdVoJXbmkWlHBw&s" alt="" />
+      </div>
+      <div >
+        <img className='h-[3rem] w-[3rem] rounded-full right-0 mt-[5rem] absolute border-4 border-white ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzsTPoP_W0u8o9wiB-qN3tY_33uRh8K9hxGQ&s" alt="" />
+      </div>
+      <div >
+        <img className='h-[2.5rem] w-[2.5rem] rounded-full top-0 mt-[6rem] absolute border-4 border-white ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJHEvwV0uy0kwULUd-iKzLH09Ee8KDw0IOA&s" alt="" />
+      </div>
+      <div className='h-[24rem] w-[24rem] bg-[#140D32] flex justify-center items-center rounded-full'>
+        
+      <div className='h-[20rem] w-[20rem] bg-[#1A1141] flex justify-center items-center rounded-full'>
+      <div className='h-[16rem] w-[16rem] bg-[#1F144E] flex justify-center items-center rounded-full '>
+      
+        <div className='h-[8rem] w-[8rem] bg-white rounded-full '>
+        
+            <img className='h-[8rem] w-[8rem] rounded-full object-cover' src="https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129417.jpg?t=st=1723020558~exp=1723024158~hmac=0d77a771a9d054f1ede3b453c9b26cabd9efb595bc9ecc66a9237f4025696239&w=996" alt="" />
+            
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      </div>
+
+      <div className='text-center text-white  bg-black p-9'>
+        <h2 className='text-3xl p-9'>Stocks under Radar</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaeca</p>
+      </div>
+
+
+      
+    </div>
+  )
+}
+
+export default Radar
+
